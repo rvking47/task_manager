@@ -6,7 +6,7 @@ import TaskItem from '../components/TaskItem'
 import axios from 'axios';
 import TaskModal from '../components/TaskModal'
 
-const API_BASE="http://localhost:4000/api/task"
+const API_BASE="https://task-manager-g67m.onrender.com/api/task"
 
 const Dashboard = () => {
 

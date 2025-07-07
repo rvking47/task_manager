@@ -7,7 +7,7 @@ import TaskModal from './TaskModal'
 
 
 
-const API_BASE="http://localhost:4000/api/task"
+const API_BASE="https://task-manager-g67m.onrender.com/api/task"
 
 const TaskItem = ({task, onRefresh, onLogout, showCompleteCheckbox=true,}) => {
 

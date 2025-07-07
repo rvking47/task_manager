@@ -3,7 +3,7 @@ import { baseControlClasses, DEFAULT_TASK, layoutClasses, priorityStyles } from 
 import { AlignLeft, Calendar, CheckCircle, Flag, PlusCircle, Save, X } from 'lucide-react'
 
 
-const API_BASE="http://localhost:4000/api/task"
+const API_BASE="https://task-manager-g67m.onrender.com/api/task"
 const TaskModal = ({isOpen, onClose, taskToEdit, onSave, onLogout}) => {
     
     const [taskData , setTaskData] = useState(DEFAULT_TASK)

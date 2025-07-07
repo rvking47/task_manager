@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { BUTTONCLASSES, FIELDS, Inputwrapper, MESSAGE_ERROR, MESSAGE_SUCCESS } from '../assets/dummy'
 import axios from 'axios'
 
- const API_URL="http://localhost:4000"
+ const API_URL="https://task-manager-g67m.onrender.com"
   const INITIAL_FORM = {name: "", email: "",password: ""}
 const SignUp = ({onSwitchMode}) => {
  
